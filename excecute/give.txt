@@ -12,4 +12,4 @@ This command gives anyone who has a specific item in his mainhand a specific ite
 
 example:
 This command gives anyone who has an dirtblock in his hand a diamond.
-/execute as @e[nbt={SelectedItem:{id:"minecraft:dirt"}}] run give @s minecraft:diamond
+/execute as @e[nbt={SelectedItem:{id:"minecraft:dirt"}}] run give @s minecraft:diamond 
