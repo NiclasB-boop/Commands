@@ -1,4 +1,15 @@
-This command gives anyone who has an dirtblock in his inventorya diamond.
+This command gives anyone who has a specific item in his inventory a specific item.
+/execute as @e[nbt={Inventory:[{id:"minecraft:$item$"}]}] run give @s minecraft:$item$
+
+example:
+This command gives anyone who has an dirtblock in his inventory diamond.
 /execute as @e[nbt={Inventory:[{id:"minecraft:dirt"}]}] run give @s minecraft:diamond
+
+----------------------------------------------------------------------------------------
+
+This command gives anyone who has a specific item in his mainhand a specific item.
+/execute as @e[nbt={SelectedItem:{id:"minecraft:$item$"}}] run give @s minecraft:$item$
+
+example:
 This command gives anyone who has an dirtblock in his hand a diamond.
 /execute as @e[nbt={SelectedItem:{id:"minecraft:dirt"}}] run give @s minecraft:diamond
