@@ -1,0 +1,4 @@
+﻿Dieser Befehl gibt jedem der einen Erdeblock im Inventar hat einen Diamanten:
+/execute as @e[nbt={Inventory:[{id:"minecraft:dirt"}]}] run give @s minecraft:diamond
+Dieser Befehl gibt jedem der einen Erdeblock in der Hand hat einen Diamanten:
+/execute as @e[nbt={SelectedItem:{id:"minecraft:dirt"}}] run give @s minecraft:diamond
