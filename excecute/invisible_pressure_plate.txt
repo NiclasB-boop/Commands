@@ -1,1 +1,2 @@
-execute if entity @a[x=-7, y=-60, z=-7, dx=0, dy= 10, dz=30] run say west
+execute as @a[x=-7, y=-60, z=-7, dx=0, dy= 0, dz=0] run tag @s add Test
+execute as @a[x=-7, y=-60, z=-9, dx=0, dy= 0, dz=0] unless entity @s[tag=Test] run tp @s -7 -60 -4
