@@ -6,7 +6,7 @@ The `/tellraw` command in Minecraft allows you to send a customized, colored mes
 
 ### Example:
 To send the message "Test" to yourself (`@s`) in green color, use the following command:
-
+/tellraw @s {"text":"Test", "color":"#00ff00"}
 
 ### Parameters:
 - **$player$**: The player to whom the message is sent. Example: `@s` (yourself), `@a` (all players), `@p` (nearest player), etc.
@@ -43,9 +43,10 @@ You can also use additional formatting like **bold**, **italic**, **underlined**
 
 ### Example with Formatting:
 To send a bold, red message to yourself, use:
-
+/tellraw @s {"text":"Test", "color":"red", "bold":true}
 
 To send an italic, green message to yourself, use:
-
+/tellraw @s {"text":"Test", "color":"green", "italic":true}
 
 Feel free to adjust the text and color values as needed for your server or gameplay experience.
+
